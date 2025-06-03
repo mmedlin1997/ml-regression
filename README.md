@@ -1,14 +1,9 @@
-Bash commands
--------------
-.\venv\scripts\activate
-jupyter notebook
-
 # Project Setup and Usage Instructions
 
 Follow these steps to clone the repository, set up the Python environment, and work with the project.
 
 ## 1. Clone the Repository
-```bash
+```
 git clone https://github.com/mmedlin1997/ml-regression.git
 cd ml-regression
 ```
@@ -25,17 +20,20 @@ pip install xgboost lightgbm catboost
 pip freeze > requirements.txt
 ```
 ## 4. Start Jupyter
-```jupyter notebook
+```
+jupyter notebook
 ```
 ## 5. Run or Edit code
 
 ## 6. Commit and Push changes
-```git add .
+```
+git add .
 git commit -m "Restructured repo with file and folders"
 git push origin master
 ```
 ## 7. Deactivate environment
-```deactivate
+```
+deactivate
 ```
 # Notebooks
 
